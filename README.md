@@ -13,6 +13,13 @@ Purposes are:
 For an easy, serverless mongo we used https://cloud.mongodb.com and integrated it directly via Vercel.
 It will save some configuration later on.
 
+A conf string for the env will look as ollow:
+MONGODB_URI=mongodb+srv://<username>:<password>@bx8c27l.mongodb.net/?retryWrites=true&w=majority
+MONGODB_DB=fornace-assistant
+
+(remove the database name after the @)
+
+
 
 ## Setup
 Create an `.env` with your setup keys.
