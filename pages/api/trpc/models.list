@@ -1,0 +1,16 @@
+export enum LlmID {
+  GPT_3_5 = 'gpt-3.5-turbo',
+  GPT_3_5_16K = 'gpt-3.5-turbo-16k',
+  GPT_3_5_AZ = 'gpt-35-turbo',
+  GPT_3_5_16K_AZ = 'gpt-35-turbo-16k',
+  GPT_4 = 'gpt-4',
+  GPT_4_32K = 'gpt-4-32k',
+  TEXT_EMBEDDING_ADA_002 = 'text-embedding-ada-002',
+  CLAUDE_INSTANT_AWS = 'anthropic.claude-instant-v1',
+  CLAUDE_2_AWS = 'anthropic.claude-v2',
+  LLAMA2_7B = 'llama2:7b',
+  CODELLAMA_7B = 'codellama:7b',
+  MISTRAL_7B = 'mistral:7b',
+  VICUNA_7B = 'vicuna:7b',
+  VICUNA_7B_16K = 'vicuna:7b-16k',
+}
